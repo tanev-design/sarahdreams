@@ -1,0 +1,20 @@
+# Local tooling / environment
+.devin/
+.firecrawl/
+.claude/
+__pycache__/
+*.pyc
+
+# Draft / source-of-truth folders not meant for deployment
+Kimi_Agent_Romantic Website Redesign with Animations/
+dont touch/
+
+# Node / build tooling
+node_modules/
+package*.json
+
+# OS files
+.DS_Store
+Thumbs.db
+
+.vercel

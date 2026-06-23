@@ -11,10 +11,13 @@ dont touch/
 
 # Node / build tooling
 node_modules/
-package*.json
+
 
 # OS files
 .DS_Store
 Thumbs.db
 
 .vercel
+
+.vercel
+.env*.local

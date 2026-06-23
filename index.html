@@ -2490,6 +2490,30 @@
 
         @media (hover: hover) and (pointer: fine) {
             
+        
+        .xdate-chip { border-color: var(--accent); color: var(--text); }
+        @media (hover: hover) and (pointer: fine) {
+            .xdate-chip:hover { border-color: var(--accent); color: var(--ink); transform: translateY(-2px); }
+            .xdate-chip:hover .onlyfans-arrow { opacity: 1; transform: translateX(0); }
+        }
+        .xdate-chip svg.onlyfans-icon { color: var(--accent); }
+        .xdate-chip .onlyfans-arrow { color: var(--accent); }
+
+        .footer-xdate-btn {
+            display: inline-flex; align-items: center; gap: 0.6rem;
+            margin-top: 0.8rem; padding: 0.6rem 1.2rem;
+            background: rgba(var(--accent-rgb), 0.05); border: 1px solid rgba(var(--accent-rgb), 0.2);
+            border-radius: 50px; color: var(--text); font-weight: 500; font-size: 0.95rem;
+            text-decoration: none; transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
+        }
+        .footer-xdate-btn svg { width: 18px; height: 18px; fill: none; stroke: var(--accent); }
+        @media (hover: hover) and (pointer: fine) {
+            .footer-xdate-btn:hover {
+                transform: translateY(-2px);
+                box-shadow: 0 6px 18px rgba(var(--accent-rgb), 0.25);
+            }
+        }
+
         .and6-chip { border-color: var(--accent); color: var(--text); }
         @media (hover: hover) and (pointer: fine) {
             .and6-chip:hover { border-color: var(--accent); color: var(--ink); transform: translateY(-2px); }
@@ -2743,6 +2767,13 @@
                     </svg>
                     <span data-i18n="and6.footer">AND6 Profile</span>
                 </a>
+                <a href="https://www.xdate.ch/de/thun-sarah-in-thun-766823" class="footer-xdate-btn" target="_blank" rel="noopener noreferrer">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" />
+                      <circle cx="12" cy="7" r="4" />
+                    </svg>
+                    <span data-i18n="xdate.footer">XDate Profile</span>
+                </a>
             </div>
         </div>
     </div>
@@ -2770,6 +2801,14 @@
                     </a>
                     <a href="https://www.and6.com/de/sex-model/Sarah-111723-thun-bern" class="hero-trust and6-chip reveal-scale" target="_blank" rel="noopener noreferrer" aria-label="AND6 profile" style="margin-top: 0.5rem; display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.5rem 1rem; border: 1px solid rgba(0,0,0,0.1); border-radius: 50px; text-decoration: none;">
                         <span data-i18n="and6.hero">AND6 Profile</span>
+                        <svg class="onlyfans-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width:20px; height:20px; display:inline-block; vertical-align:middle;">
+                          <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" />
+                          <circle cx="12" cy="7" r="4" />
+                        </svg>
+                        <svg class="onlyfans-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M9 7h8v8"/></svg>
+                    </a>
+                    <a href="https://www.xdate.ch/de/thun-sarah-in-thun-766823" class="hero-trust xdate-chip reveal-scale" target="_blank" rel="noopener noreferrer" aria-label="XDate profile" style="margin-top: 0.5rem; display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.5rem 1rem; border: 1px solid rgba(0,0,0,0.1); border-radius: 50px; text-decoration: none;">
+                        <span data-i18n="xdate.hero">XDate Profile</span>
                         <svg class="onlyfans-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width:20px; height:20px; display:inline-block; vertical-align:middle;">
                           <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" />
                           <circle cx="12" cy="7" r="4" />
@@ -3329,6 +3368,13 @@
                     </svg>
                     <span data-i18n="and6.footer">AND6 Profile</span>
                 </a>
+                <a href="https://www.xdate.ch/de/thun-sarah-in-thun-766823" class="footer-xdate-btn" target="_blank" rel="noopener noreferrer">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" />
+                      <circle cx="12" cy="7" r="4" />
+                    </svg>
+                    <span data-i18n="xdate.footer">XDate Profile</span>
+                </a>
             </div>
         </div>
         <div class="container footer-bottom">
@@ -3383,6 +3429,8 @@
                 "onlyfans.footer": "OnlyFans Profile",
                 "and6.hero": "AND6 Profile",
                 "and6.footer": "AND6 Profile",
+                "xdate.hero": "XDate Profile",
+                "xdate.footer": "XDate Profile",
                 "hero.desc": "Experience <strong class='highlight'>private sessions</strong> and <strong class='highlight'>discreet, memorable moments</strong> designed for your complete wellbeing and relaxation.",
                 "hero.cta1": "Book an Appointment",
                 "hero.cta2": "View Gallery",
@@ -3530,6 +3578,8 @@
                 "onlyfans.footer": "OnlyFans Profil",
                 "and6.hero": "AND6 Profil",
                 "and6.footer": "AND6 Profil",
+                "xdate.hero": "XDate Profil",
+                "xdate.footer": "XDate Profil",
                 "hero.desc": "Erleben Sie <strong class='highlight'>private Sessions</strong> und <strong class='highlight'>diskrete, unvergessliche Momente</strong> für Ihr Wohlbefinden und Entspannung.",
                 "hero.cta1": "Termin buchen",
                 "hero.cta2": "Galerie ansehen",

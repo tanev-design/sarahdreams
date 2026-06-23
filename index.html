@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -2669,21 +2669,17 @@
                 <div class="lang-dropdown" id="langDropdown">
                     <button type="button" class="lang-dropdown-btn" id="langDropdownBtn" aria-haspopup="true" aria-expanded="false" aria-label="Select Language">
                         <span id="activeLangFlag" style="display:inline-flex; align-items:center;">
-                            <svg viewBox="0 0 60 40" class="flag-svg" aria-hidden="true"><rect width="60" height="40" fill="#012169"/><path d="M0,0 L60,40 M60,0 L0,40" stroke="#fff" stroke-width="8"/><path d="M0,0 L60,40 M60,0 L0,40" stroke="#c8102e" stroke-width="5"/><path d="M30,0 V40 M0,20 H60" stroke="#fff" stroke-width="12"/><path d="M30,0 V40 M0,20 H60" stroke="#c8102e" stroke-width="8"/></svg>
+                            <svg viewBox="0 0 60 40" class="flag-svg" aria-hidden="true"><rect width="60" height="13.33" fill="#000"/><rect y="13.33" width="60" height="13.33" fill="#dd0000"/><rect y="26.67" width="60" height="13.33" fill="#ffce00"/></svg>
                         </span>
                         <span id="activeLangText">EN</span>
                         <svg class="chevron-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
                     </button>
                     <div class="lang-dropdown-menu" id="langDropdownMenu" role="menu">
-                        <button type="button" class="lang-dropdown-item active" data-lang="en" onclick="changeLang('en')" role="menuitem">
+                        <button type="button" class="lang-dropdown-item" data-lang="en" onclick="changeLang('en')" role="menuitem">
                             <svg viewBox="0 0 60 40" aria-hidden="true"><rect width="60" height="40" fill="#012169"/><path d="M0,0 L60,40 M60,0 L0,40" stroke="#fff" stroke-width="8"/><path d="M0,0 L60,40 M60,0 L0,40" stroke="#c8102e" stroke-width="5"/><path d="M30,0 V40 M0,20 H60" stroke="#fff" stroke-width="12"/><path d="M30,0 V40 M0,20 H60" stroke="#c8102e" stroke-width="8"/></svg>
                             <span>English</span>
                         </button>
-                        <button type="button" class="lang-dropdown-item" data-lang="bg" onclick="changeLang('bg')" role="menuitem">
-                            <svg viewBox="0 0 60 40" aria-hidden="true"><rect width="60" height="13.33" fill="#fff"/><rect y="13.33" width="60" height="13.33" fill="#00966e"/><rect y="26.67" width="60" height="13.33" fill="#d62612"/></svg>
-                            <span>Български</span>
-                        </button>
-                        <button type="button" class="lang-dropdown-item" data-lang="de" onclick="changeLang('de')" role="menuitem">
+                        <button type="button" class="lang-dropdown-item active" data-lang="de" onclick="changeLang('de')" role="menuitem">
                             <svg viewBox="0 0 60 40" aria-hidden="true"><rect width="60" height="13.33" fill="#000"/><rect y="13.33" width="60" height="13.33" fill="#dd0000"/><rect y="26.67" width="60" height="13.33" fill="#ffce00"/></svg>
                             <span>Deutsch</span>
                         </button>
@@ -3461,152 +3457,7 @@
                 "footer.contactTitle": "Contact",
                 "videos.label": "Video",
                 "videos.title": "Video Moments",
-            },
-            bg: {
-                "site.title": "SarahDream - Ексклузивна компания и дискретни мигове",
-                "site.description": "SarahDream предлага ексклузивна компания и дискретни преживявания в Швейцария. Запазете своя час лесно по телефон или онлайн форма.",
-                "nav.about": "За мен",
-                "nav.gallery": "Галерия",
-                "nav.services": "Услуги",
-                "nav.booking": "Резервация",
-                "nav.contact": "Контакти",
-                "nav.video": "Видео",
-                "nav.menu": "Меню",
-                "top.call": "Обади се сега",
-                "hero.subtitle": "Ексклузивно изживяване",
-                "hero.title": "Добре дошли при <em>Сара</em>",
-                "hero.trustBadge": "Дискретно & лично",
-                "alo.badge": "ALO.bg обяви",
-                "alo.hero": "Обявена в",
-                "alo.ad1": "Link 1",
-                "alo.ad2": "Link 2",
-                "alo.ad3": "Link 3",
-                "onlyfans.hero": "Посети моя OnlyFans",
-                "onlyfans.footer": "OnlyFans Профил",
-                "hero.desc": "Потопете се в <strong class='highlight'>индивидуални сесии</strong> и <strong class='highlight'>дискретни, незабравими мигове</strong>, създадени за вашето пълно благополучие и релаксация.",
-                "hero.cta1": "Запази час",
-                "hero.cta2": "Виж галерията",
-                "stats.age": "Години",
-                "stats.height": "см",
-                "stats.weight": "кг",
-                "about.label": "За мен",
-                "about.title": "За Сара",
-                "about.p1": "Казвам се Сара, на 36 години съм, висока 158 см, тежа 49 кг, с красиви кафяви очи и дълга черна коса.",
-                "about.p2": "Предлагам спокойно, изискано изживяване с <strong class='highlight'>внимание, топлина и уважение</strong> — <strong class='highlight'>без бързане и без пошлост</strong>.",
-                "about.p3": "Ще откриеш <strong class='highlight'>елегантна компания, специална забава и релакс моменти</strong> в <strong class='highlight'>уютна, чиста и дискретна обстановка</strong>.",
-                "about.p4": "Очаквам само <strong class='highlight'>сериозни, възпитани господа</strong>, които ценят <strong class='highlight'>качеството и личното отношение</strong>.",
-                "about.p5": "С мен всяка среща е специална. <strong class='highlight'>Качеството има цена. Дискретност 100%. Реални снимки. Реално удоволствие.</strong>",
-                "services.label": "Преживявания",
-                "services.title": "Услуги и цени",
-                "services.intro": "Изберете преживяването, което Ви подхожда. Всяка среща е дискретна, уважителна и съобразена с Вашите желания.",
-                "services.myService": "Моите услуги",
-                "services.item1": "Класическа дискретна компания",
-                "services.item2": "Топъл разговор, релаксиращ допир и чиста химия",
-                "services.item3": "GFE — Girlfriend Experience",
-                "services.item4": "Интимно лично присъствие",
-                "services.item5": "Нежни моменти и персонално внимание",
-                "services.prices": "Цени в евро",
-                "services.noteTitle": "Не предлагам:",
-                "services.noteText": " <strong class='highlight'>Екстремни или рискови желания.</strong>",
-                "services.howTitle": "Как да резервирате",
-                "services.how1": "Изберете предпочитана продължителност",
-                "services.how2": "Изберете дата и свободен час",
-                "services.how3": "Изпратете заявката или се обадете директно",
-                "services.how4": "Ще потвърдя Вашия час възможно най-скоро",
-                "services.bookBtn": "Резервирайте час",
-                "price.30": "30 минути",
-                "price.60": "60 минути",
-                "price.90": "90 минути",
-                "price.120": "120 минути",
-                "price.evening": "Вечер (4+ часа)",
-                "gallery.label": "Галерия",
-                "gallery.title": "Фотогалерия",
-                "gallery.featuredLabel": "Избрано",
-                "gallery.featuredTitle": "Сара отблизо",
-                "gallery.filmstripLabel": "Моменти",
-                "gallery.filmstripTitle": "Истински мигове",
-                "gallery.candidTitle": "Неподправена красота",
-                "gallery.viewMore": "Вижте още снимки",
-                "gallery.viewLess": "Покажете по-малко",
-                "videos.label": "Видео",
-                "videos.title": "Видео моменти",
-                "booking.label": "Час",
-                "booking.title": "Запазете час",
-                "booking.subtitle": "Без регистрация. Изберете дата и час и изпратете заявка — ще потвърдя възможно най-скоро.",
-                "booking.service": "Услуга / Продължителност",
-                "booking.date": "Предпочитана дата",
-                "booking.time": "Предпочитан час",
-                "booking.name": "Вашето име",
-                "booking.phone": "Телефон",
-                "booking.email": "Имейл (за потвърждение)",
-                "booking.message": "Съобщение / Желания",
-                "booking.messagePlaceholder": "Уведомете ме, ако имате специални желания…",
-                "booking.submit": "Изпратете заявка за час",
-                "booking.note": "На мобилно устройство отваря SMS приложението, а на компютър — имейл клиента. Можете също да ми пишете във <strong class='highlight'>Viber</strong> — <strong class='highlight'>моля, без скрити номера</strong>.",
-                "booking.selectService": "Изберете услуга…",
-                "booking.opt30": "30 минути - €100",
-                "booking.opt60": "60 минути - €200",
-                "booking.opt90": "90 минути - €300",
-                "booking.opt120": "120 минути - €400",
-                "booking.optEvening": "Вечер (4+ часа) - €1000",
-                "booking.needTime": "Моля, изберете предпочитан час.",
-                "booking.needDate": "Моля, първо изберете дата.",
-                "booking.summaryLabel": "Вашата заявка за час:",
-                "booking.captchaQuestion": "Потвърдете, че сте човек:",
-                "booking.captchaError": "Неправилен код за сигурност. Моля, опитайте отново.",
-                "booking.successTitle": "Заявката за час е изпратена!",
-                "booking.successDesc": "Благодарим Ви, {name}. Заявката Ви беше изпратена успешно. Ще я прегледам и ще се свържа с Вас за потвърждение възможно най-скоро.",
-                "booking.serviceLabel": "Услуга",
-                "booking.dateLabel": "Дата",
-                "booking.timeLabel": "Час",
-                "booking.bookAnother": "Запазете друг час",
-                "cta.bookNow": "Запази час",
-                "nav.reviews": "Книга за гости",
-                "reviews.label": "Добри думи",
-                "reviews.title": "Книга за гости",
-                "reviews.subtitle": "Чувствайте се свободни да оставите няколко добри думи.",
-                "reviews.formTitle": "Оставете коментар",
-                "reviews.name": "Вашето име",
-                "reviews.rating": "",
-                "reviews.message": "Вашият коментар",
-                "reviews.messagePlaceholder": "Напишете няколко добри думи…",
-                "reviews.submit": "Публикувай коментар",
-                "reviews.thanks": "Благодаря! Вашият коментар е получен.",
-                "booking.pickDateFirst": "Изберете дата по-горе, за да видите свободните часове",
-                "booking.availableTimes": "Свободни часове",
-                "booking.noTimes": "Няма свободни часове за тази дата.",
-                "booking.slotTaken": "Съжаляваме — този час току-що беше зает. Моля, изберете друг.",
-                "booking.sending": "Изпращане…",
-                "booking.legendOpen": "Свободно",
-                "booking.legendFull": "Заето",
-                "booking.emailConfirmSent": "Имейл за потвърждение е на път към Вас.",
-                "booking.autoReply": "Здравейте, {name},\n\nБлагодаря за заявката Ви за час в SarahDream. Получих резервацията Ви за {service} на {date} в {time} и ще я потвърдя лично съвсем скоро.\n\nАко желаете да промените нещо, просто отговорете на този имейл.\n\nС уважение,\nСара",
-                "cal.months": ["Януари","Февруари","Март","Април","Май","Юни","Юли","Август","Септември","Октомври","Ноември","Декември"],
-                "cal.monthsShort": ["Яну","Фев","Мар","Апр","Май","Юни","Юли","Авг","Сеп","Окт","Ное","Дек"],
-                "cal.weekdays": ["Пн","Вт","Ср","Чт","Пт","Сб","Нд"],
-                "contact.label": "Свържете се с мен",
-                "contact.title": "Свържете се с мен",
-                "contact.detailsTitle": "Свържете се",
-                "contact.messageTitle": "Изпратете съобщение",
-                "contact.intro": "Ако имате въпроси или искате да уговорите среща, можете да се свържете с мен по следния начин:",
-                "contact.locationTitle": "Местоположение",
-                "contact.tempLocation": "Уютна, чиста и дискретна обстановка в <strong class='highlight'>България</strong> — <strong class='highlight'>посещения в хотели</strong> по избор.",
-                "contact.phoneTitle": "Телефон",
-                "contact.viberTitle": "Viber",
-                "contact.viberAction": "Пишете във Viber",
-                "contact.whatsappTitle": "WhatsApp",
-                "contact.whatsappAction": "Пишете в WhatsApp",
-                "contact.hoursTitle": "Работно време",
-                "hours.today": "Отворено днес",
-                "form.name": "Име",
-                "form.email": "Имейл *",
-                "form.message": "Съобщение",
-                "form.send": "Изпратете",
-                "footer.impressum": "Правна информация",
-                "footer.tagline": "Дискретни, ексклузивни изживявания в Швейцария.",
-                "footer.linksTitle": "Бързи връзки",
-                "footer.contactTitle": "Контакт",
-            },
+            },,
             de: {
                 "site.title": "SarahDream - Exklusive Begleitung & diskrete Momente",
                 "site.description": "SarahDream bietet exklusive Begleitung und private, diskrete Erlebnisse in der Schweiz. Buchen Sie Ihren Termin einfach online oder telefonisch.",
@@ -3753,7 +3604,7 @@
                 "videos.title": "Video-Momente",
             }
         };
-let currentLang = 'en';
+let currentLang = 'de';
         function setLang(lang) {
             currentLang = lang;
             document.querySelectorAll('.lang-dropdown-item').forEach(btn => {

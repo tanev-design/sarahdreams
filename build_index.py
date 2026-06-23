@@ -21,7 +21,7 @@ head_inject = f'''
 
     <!-- Open Graph -->
     <meta property="og:title" content="SarahDream - Book Your Appointment">
-    <meta property="og:description" content="Exclusive sensual massage and companionship experience in Bulgaria. Book discreetly by phone, Viber, WhatsApp or online form - no registration required.">
+    <meta property="og:description" content="Exclusive sensual massage and companionship experience in Switzerland. Book discreetly by phone, Viber, WhatsApp or online form - no registration required.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="{BASE_URL}/">
     <meta property="og:image" content="{BASE_URL}/og-image.jpg">
@@ -32,7 +32,7 @@ head_inject = f'''
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="SarahDream - Book Your Appointment">
-    <meta name="twitter:description" content="Exclusive sensual massage and companionship experience in Bulgaria. Book discreetly by phone, Viber, WhatsApp or online form - no registration required.">
+    <meta name="twitter:description" content="Exclusive sensual massage and companionship experience in Switzerland. Book discreetly by phone, Viber, WhatsApp or online form - no registration required.">
     <meta name="twitter:image" content="{BASE_URL}/og-image.jpg">
 
     <!-- Structured data -->
@@ -46,8 +46,8 @@ head_inject = f'''
       "url": "{BASE_URL}/",
       "address": {{
         "@type": "PostalAddress",
-        "addressLocality": "Bulgaria",
-        "addressCountry": "BG"
+        "addressLocality": "Switzerland",
+        "addressCountry": "CH"
       }}
     }}
     </script>
